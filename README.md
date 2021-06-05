@@ -1,2 +1,2 @@
 # Site-test-2
- Site coltado para a pratica de HTML e CSS
+ Site criado para a pratica de HTML e CSS
