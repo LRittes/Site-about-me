@@ -1,2 +1,2 @@
-# Site-test-2
- Site criado para a pratica de HTML e CSS
+# Site about me
+site created to practice html and css and to show my skills and knowledge
