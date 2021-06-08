@@ -69,7 +69,7 @@ header img {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 550px;
-    border: 10px solid #000;
+    border-bottom: 10px solid #000;
 }
 
 .placa {
@@ -121,3 +121,34 @@ header img {
     margin-top: 30px;
 }
 
+#skills {
+    height: 550px;
+    width: 100%;
+    border-bottom: 10px solid #794a04;
+    background-color: #3A4042;
+}
+
+#skills h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: white;
+    text-shadow: 4px 4px 0px black;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#skills .box-skills h3 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    padding-bottom: 15px;
+    color: white;
+    text-shadow: 4px 4px 0px black;
+}
+
+.box-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 900px;
+    margin: 0 auto;
+    grid-gap: 10px;
+}
