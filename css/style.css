@@ -189,13 +189,14 @@ header img {
     width: 100%;
     background-color: #000;
     border-bottom: 10px solid #3A4042;
+    text-align: center;
 }
 
 .section-proj h1 {
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
     color: white;
-    text-align: center;
+    
     padding: 50px 0;
 }
 
