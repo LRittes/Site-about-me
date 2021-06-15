@@ -129,7 +129,7 @@ header img {
     background-color: #3A4042;
 }
 
-.section-skills h1 {
+.section-skills h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
     color: white;
@@ -190,10 +190,35 @@ header img {
     text-align: center;
 }
 
-.section-proj h1 {
+.section-proj h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
     color: white;
-    
     padding: 50px 0;
+}
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    background-color: #3A4042;
+    border-bottom: 10px solid #975F0B;
+    text-align: center;
+}
+
+.about h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: white;
+    padding: 50px 0;
+}
+
+.description {
+    margin: 0 50px;
+    color: #fff;
+    font-family: 'Fira code', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.3;
+    text-align: justify;
 }
