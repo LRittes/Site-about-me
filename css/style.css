@@ -222,3 +222,16 @@ header img {
     line-height: 1.3;
     text-align: justify;
 }
+
+.footer {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .social-media {
+    width: 200px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
