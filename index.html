@@ -29,7 +29,7 @@
             </div>
             
             <div id="button-home" >
-                <a class="button-uni" href="">Download CV</a>
+                <a class="button-uni" href="assert/documents/Curriculo Leandro Ribeiro Rittes.pdf" download="Curriculo Leandro Ribeiro Rittes.pdf" type="application/pdf">Download CV</a>
                 <a class="button-uni" href="">Contatos</a>
             </div>
         </section>
@@ -86,22 +86,25 @@
             </p>
         </section>
         <section class="contact">
-            <form class="box-contact">
+            <form class="box-contact" action="https://api.staticforms.xyz/submit" method="POST">
                 <legend>Contatos</legend>
                 <div>
-                    <label for="nome">Nome</label>
-                    <input class="main-input" type="text" name="nome" id="nome" required>
+                    <input type="hidden" name="accessKey" value="a901ff57-5b43-488a-a655-fc7693734515">
+                    <input type="hidden" name="redirectTo" value="https://lrittes.github.io/Site-about-me/">
+
+                    <label for="name">Nome</label>
+                    <input class="main-input" type="text" name="name" id="name" required>
                 </div>
                 <div>
-                    <label for="mail">Email</label>
-                    <input class="main-input" type="email" name="mail" id="mail" required>
+                    <label for="email">Email</label>
+                    <input class="main-input" type="email" name="email" id="email" required>
                 </div>
                 <div>
-                    <label for="msg">Mensagem</label>
-                    <textarea class="main-input -textarea" name="msg" id="msg" required></textarea>
+                    <label for="message">Mensagem</label>
+                    <textarea class="main-input -textarea" name="message" id="message" required></textarea>
                 </div>
                 <div id="button-subm">
-                    <button type="submit" class="button-uni">Enviar</button>
+                    <input type="submit" class="button-uni" value="Enviar">
                 </div>
             </form>
         </section>
