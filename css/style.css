@@ -191,6 +191,27 @@ header img {
     text-align: center;
 }
 
+.section-proj .proj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-proj .proj a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+.section-proj .proj p {
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+
 .section-proj h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
