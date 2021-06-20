@@ -66,7 +66,7 @@ header img {
 }
 
 #home {
-    background-image: url(../assert/img/banner-1349.jpg);
+    background-image: url(../assets/img/banner-1349.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 560px;
@@ -191,10 +191,14 @@ header img {
     text-align: center;
 }
 
-.section-proj .proj {
+.section-proj .proj-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section-proj .proj-wrapper .proj {
+    margin-right: 40px;
 }
 
 .section-proj .proj a {
