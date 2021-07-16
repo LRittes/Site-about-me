@@ -192,13 +192,10 @@ header img {
 }
 
 .section-proj .proj-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-proj .proj-wrapper .proj {
-    margin-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 3px;
+    margin-left: 5px;
 }
 
 .section-proj .proj a {
@@ -206,7 +203,7 @@ header img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px;
+    
 }
 .section-proj .proj p {
     display: inline-block;
