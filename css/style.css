@@ -184,7 +184,7 @@ header img {
 
 .section-proj {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     width: 100%;
     background-color: #000;
     border-bottom: 10px solid #975F0B;
@@ -193,12 +193,13 @@ header img {
 
 .section-proj .proj-wrapper {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 50px;
     margin-left: 5px;
 }
 
-.section-proj .proj a {
+.section-proj .proj .proj-box {
     text-decoration: none;
     display: flex;
     flex-direction: column;
