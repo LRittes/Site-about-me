@@ -26,3 +26,18 @@ document.querySelector("#btn-contact2").addEventListener("click",function(event)
     event.preventDefault();
     scrollTo(".contact")
 })
+
+
+let showN = true;
+
+const header = document.querySelector(".header");
+const menuToggle = header.querySelector(".menu-toggle");
+
+menuToggle.addEventListener('click', () => {
+
+    document.body.style.overflow = showN ? 'hidden':'initial';
+
+    header.classList.toggle("on", showN);
+
+    showN = !showN;
+})
