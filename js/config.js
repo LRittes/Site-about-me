@@ -37,7 +37,11 @@ menuToggle.addEventListener('click', () => {
 
     document.body.style.overflow = showN ? 'hidden':'initial';
 
-    header.classList.toggle("on", showN);
-
+    if(showN){
+        header.classList.add("on");
+    }
+    else {
+        header.classList.remove("on");
+    }
     showN = !showN;
 })

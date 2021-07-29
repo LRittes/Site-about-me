@@ -6,30 +6,30 @@ html {
     font-size: 62.5%;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     background-color: #3A4042;
     border-bottom: 5px solid black;
-    padding: 10px 20px;
+    padding: 1.0rem 2.0rem;
 }
 
-header img {
-    height: 60px;
-    width: 60px;
+.header .photoH {
+    height: 6.0rem;
+    width: 6.0rem;
 }
 
 .action {
-    font-size: 20px;
+    font-size: 2.0rem;
     font-family: "Fira Code", "sans-serif";
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 3.0rem;
     display: inline-flex;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2.0rem;
+    padding-bottom: 2.0rem;
 }
 
 .action:hover {
@@ -38,27 +38,27 @@ header img {
 
 .action::before {
     content: "";
-    height: 10px;
-    width: 10px;
+    height: 1.0rem;
+    width: 1.0rem;
     background-color: #975F0B;
-    margin-right: 10px;
+    margin-right: 1.0rem;
 }
 
 .button-uni {
     display: inline-block;
-    font-size: 20px;
+    font-size: 2.0rem;
     font-family: "Fira Code", "sans-serif";
     color: #fff;
     font-weight: bold;
     text-decoration: none;
     background-color: #975F0B;
-    height: 60px;
-    width: 170px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 60px;
-    box-shadow: 5px 5px 0px black;
-    margin-right: 0px;
+    height: 6.0rem;
+    width: 17.0rem;
+    padding-top: .0rem;
+    padding-bottom: .0rem;
+    line-height: 6.0rem;
+    box-shadow: 5px 5px 0 black;
+    margin-right: .0rem;
     text-align: center;
     cursor: pointer;
     transition: transform 100ms linear; /*ease-in-out = vai suavisar no começo e no final  */
@@ -73,9 +73,9 @@ header img {
     display: none;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
     html {
-        font-size: 5.6px;
+        font-size: 35%;
     }
 
     .navbar {
@@ -88,7 +88,8 @@ header img {
         display: initial;
         width: 4rem;
         height: 3rem;
-        margin: 1rem 3rem;        
+        margin: 1rem 3rem;   
+        cursor: pointer;     
     }
 
     .one, .two, .three {
@@ -148,12 +149,12 @@ header img {
 
     .header.on .menu-toggle {
         position: absolute;
-        top: 5px;
-        right: 5px;
+        top: .5rem;
+        right: .5rem;
     }
 
     .header.on .menu-toggle .one {
-        transform: rotate(45deg) translate(7px, 7px);
+        transform: rotate(45deg) translate(1.5rem, 1.2rem);
     }
 
     .header.on .menu-toggle .two {
@@ -161,7 +162,7 @@ header img {
     }
 
     .header.on .menu-toggle .three {
-        transform: rotate(-45deg) translate(1px, -2px);
+        transform: rotate(-45deg) translate(.2rem, -.1rem);
     }
 }
 
@@ -169,43 +170,43 @@ header img {
     background-image: url(../assets/img/banner-1349.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 560px;
-    border-bottom: 10px solid #000;
     object-fit: cover;
+    height: 56.5rem;
+    border-bottom: 1.0rem solid #794a04;
 }
 
 .placa {
     display: inline-block;
     background-color: #3A4042;
-    padding: 15px 15px;
-    margin-top: 90px;
-    margin-left: 245px;
-    box-shadow: 5px 5px 0px black;
+    padding: 1.5rem 1.5rem;
+    margin-top: 9.0rem;
+    margin-left: 24.5rem;
+    box-shadow: 5px 5px 0 black;
     text-align: center;
 }
 
 .placa h1 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 18px;
-    padding-bottom: 15px;
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
     color: white;
-    text-shadow: 4px 4px 0px black;
+    text-shadow: 4px 4px 0 black;
 }
 
 .placa h3 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: white;
-    text-shadow: 4px 4px 0px black;
+    text-shadow: 4px 4px 0 black;
 }
 
 .loading-spinner {
-    margin-top: -15px;
-    margin-left: 320px;
-    height: 1px;
-    width: 1px;
-    padding: 6px;
-    border: 3px solid rgba(255, 255, 255, 0.3);
+    margin-top: -1.5rem;
+    margin-left: 32.0rem;
+    height: .1rem;
+    width: .1rem;
+    padding: .6rem;
+    border: .3rem solid rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     border-top-color: #fff;
     animation: 1s spin infinite ease-in-out;
@@ -219,38 +220,38 @@ header img {
 
 #button-home .button-uni {
     display: inline-block;
-    margin-left: 160px;
-    margin-top: 30px;
+    margin-left: 16.0rem;
+    margin-top: 3.0rem;
 }
 
 .section-skills {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 5.0rem;
+    padding-bottom: 10.0rem;
     width: 100%;
-    border-bottom: 10px solid #794a04;
+    border-bottom: 1.0rem solid #794a04;
     background-color: #3A4042;
 }
 
 .section-skills h2 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 30px;
+    font-size: 3.0rem;
     color: white;
     text-align: center;
-    padding: 50px 0;
+    padding: 5.0rem 0;
 }
 
 .box-skills {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    max-width: 800px;
+    grid-template-columns: repeat(auto-fit, minmax(30.0rem, 1fr));
+    max-width: 80.0rem;
     margin: 0 auto;
-    grid-gap: 10px;
+    grid-gap: 1.0rem;
 }
 
 .box-skills div {
     display: flex;
-    margin-left: 20px;
-    padding: 15px;
+    margin-left: 2.0rem;
+    padding: 1.5rem;
 }
 
 .box-skills div .name-tec-bar {
@@ -262,16 +263,16 @@ header img {
 
 .box-skills h3 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: white;
-    margin-left: 20px;
+    margin-left: 2.0rem;
 }
 
 .box-skills progress {
     box-sizing: border-box;
-    height: 30px;
-    margin-left: 20px;
-    border: 4px solid #000;
+    height: 3.0rem;
+    margin-left: 2.0rem;
+    border: .4rem solid #000;
     -webkit-appearance: none;
 }
 
@@ -284,20 +285,20 @@ header img {
 }
 
 .section-proj {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 5.0rem;
+    padding-bottom: 5.0rem;
     width: 100%;
     background-color: #000;
-    border-bottom: 10px solid #975F0B;
+    border-bottom: 1.0rem solid #975F0B;
     text-align: center;
 }
 
 .section-proj .proj-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-row-gap: 20px;
-    grid-column-gap: 50px;
-    margin-left: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(30.0rem, 1fr));
+    grid-row-gap: 2.0rem;
+    grid-column-gap: 5.0rem;
+    margin-left: .5rem;
 }
 
 .section-proj .proj .proj-box {
@@ -315,40 +316,40 @@ header img {
 .section-proj .proj p {
     display: inline-block;
     font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
-    margin-top: 10px;
+    font-size: 1.0rem;
+    margin-top: 1.0rem;
     color: #fff;
 }
 
 .section-proj h2 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 30px;
+    font-size: 3.0rem;
     color: white;
-    padding: 50px 0;
+    padding: 5.0rem 0;
 }
 
 .about {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 5.0rem;
+    padding-bottom: 10.0rem;
     width: 100%;
     background-color: #3A4042;
-    border-bottom: 10px solid #975F0B;
+    border-bottom: 1.0rem solid #975F0B;
     text-align: center;
 }
 
 .about h2 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 30px;
+    font-size: 3.0rem;
     color: white;
-    padding: 50px 0;
+    padding: 5.0rem 0;
 }
 
 .description {
-    margin: 0 50px;
+    margin: 0 5.0rem;
     color: #fff;
     font-family: 'Fira code', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 3.0rem;
     line-height: 1.3;
     text-align: justify;
 }
@@ -358,9 +359,9 @@ header img {
     display: flex;
     justify-content: center;
     align-content: center;
-    border-bottom: 10px solid #975F0B;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    border-bottom: 1.0rem solid #975F0B;
+    padding-top: 5.0rem;
+    padding-bottom: 5.0rem;
     width: 100%;
 }
 
@@ -369,15 +370,15 @@ header img {
 }
 
 .contact .box-contact div {
-    margin-bottom: 20px;
+    margin-bottom: 2.0rem;
     
 }
 
 .contact .box-contact legend {
     font-family: 'Press Start 2P', cursive;
-    font-size: 30px;
+    font-size: 3.0rem;
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 5.0rem;
     text-align: center;
 }
 
@@ -385,9 +386,9 @@ header img {
     font-family: 'Fira code';
     color: #fff;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 2.0rem;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin-bottom: 1.0rem;
 }
 
 .contact .box-contact div .main-input {
@@ -395,15 +396,15 @@ header img {
     box-sizing: border-box;
     width: 100%;
     height: 2rem;
-    font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 2.0rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
     background-color: #fff;
-    border: 3px solid #000;
+    border: .3rem solid #000;
 }
 
 .contact .box-contact div .main-input.-textarea {
-    height: 200px;
+    height: 20.0rem;
 }
 
 .contact .box-contact #button-subm .button-uni {
@@ -421,8 +422,9 @@ header img {
 }
 
 .footer .social-media {
-    width: 200px;
+    width: 20.0rem;
     margin: 15px 0;
     display: flex;
     justify-content: space-between;
+    object-fit: cover;
 }
