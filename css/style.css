@@ -170,9 +170,11 @@ html {
     background-image: url(../assets/img/banner-1349.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    object-fit: cover;
-    height: 56.5rem;
     border-bottom: 1.0rem solid #794a04;
+}
+
+#home .button-uni {
+    margin-bottom: 30rem;
 }
 
 .placa {
@@ -215,6 +217,16 @@ html {
 @keyframes spin {
     to {
         transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #home .button-uni {
+        margin-bottom: 2rem;
+    }
+
+    .placa {
+        margin-left: 10rem;
     }
 }
 
